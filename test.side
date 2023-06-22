@@ -1,0 +1,152 @@
+{
+  "id": "a0f51fe1-241b-477b-b969-46dfa76f5d8c",
+  "version": "2.0",
+  "name": "bank",
+  "url": "https://idemo.bspb.ru/auth?response_type=code&client_id=1&redirect_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fsuccess&prefetch_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fprefetch&force_new_session=true",
+  "tests": [{
+    "id": "3971bb3b-07c4-4687-8b56-ecadf1d35044",
+    "name": "1",
+    "commands": [{
+      "id": "9a33da25-686b-4e59-aed0-d88ac725405b",
+      "comment": "",
+      "command": "open",
+      "target": "https://idemo.bspb.ru/auth?response_type=code&client_id=1&redirect_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fsuccess&prefetch_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fprefetch&force_new_session=true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c2463d6-2a26-4c58-944e-d1e6cfcdd100",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff88406d-dc4f-40ef-a695-37fc5a1d4c26",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a1ed261-a4f0-49de-90d1-5c8e26a0ddca",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d471b4-5dd0-4390-b43c-da0c2a1b5dd2",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-otp-button",
+      "targets": [
+        ["id=login-otp-button", "id"],
+        ["css=#login-otp-button", "css:finder"],
+        ["xpath=//button[@id='login-otp-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21fd51c7-c9d6-419c-afdb-ec84a5088b9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=accounts-index",
+      "targets": [
+        ["id=accounts-index", "id"],
+        ["css=#accounts > #accounts-index", "css:finder"],
+        ["xpath=//a[contains(text(),'Счета')]", "xpath:link"],
+        ["xpath=//a[@id='accounts-index']", "xpath:attributes"],
+        ["xpath=//li[@id='accounts']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/accounts')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce86b719-0bf4-4221-8112-b6cf87857eb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Открыть счёт",
+      "targets": [
+        ["linkText=Открыть счёт", "linkText"],
+        ["css=.form-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Открыть счёт')]", "xpath:link"],
+        ["xpath=//div[@id='contentbar']/form/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/accounts/new')]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Открыть счёт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c74cf0ba-2d37-4efe-8fcc-97ff4c563329",
+      "comment": "",
+      "command": "click",
+      "target": "name=condition.newAccountConditions",
+      "targets": [
+        ["name=condition.newAccountConditions", "name"],
+        ["css=.immune", "css:finder"],
+        ["xpath=//input[@name='condition.newAccountConditions']", "xpath:attributes"],
+        ["xpath=//form[@id='new-account-form']/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f88d8c6-cb51-4786-b3fe-d8fd60806bb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='new-account-form']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Открыть счёт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a99d8d-c81e-4d19-8a68-3c8d43cd8e4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-close",
+      "targets": [
+        ["css=.icon-close", "css:finder"],
+        ["xpath=//a[@id='logout-button']/span", "xpath:idRelative"],
+        ["xpath=//div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675cf265-9ad9-4065-bdfe-51026a2c20a5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a06c5cce-d5fc-4334-8851-1ebdb1650e7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3971bb3b-07c4-4687-8b56-ecadf1d35044"]
+  }],
+  "urls": ["https://idemo.bspb.ru/auth?response_type=code&client_id=1&redirect_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fsuccess&prefetch_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fprefetch&force_new_session=true"],
+  "plugins": []
+}
